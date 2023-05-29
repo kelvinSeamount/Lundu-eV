@@ -55,15 +55,17 @@
             </div>
             <div class="swiper-slide">
               <img
-                src="./asset/Say-No-FGM.jpg"
-                alt="Stop
-                FGM"
+                src="./asset/sai-de-silva-cykFL7IQCTk-unsplash.jpg"
+                alt="happy mum and child"
               />
             </div>
-            <div class="swiper-slide">
-              <img src="./asset/Say-No-FGM1.jpg" alt="Stop FGM " />
-            </div>
           </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
       </div>
     </section>
@@ -81,6 +83,18 @@
         // Optional parameters
 
         loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
       });
     </script>
   </body>
