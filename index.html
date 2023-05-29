@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lundu eV Landing Page</title>
+
+    <!----------------------CSS-STYLE-SHEET------------------------------>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!----------------------SWIPER-CDN-LINK------------------------------>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./asset/annie-spratt-yrzBgqapG1I-unsplash.jpg"
+                alt="woman backing a baby"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asset/claudia-wolff-owBcefxgrIE-unsplash.jpg"
+                alt="woman crying"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asset/gift-habeshaw-XvqeCMXHwzQ-unsplash.jpg"
+                alt="single father"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asset/mika-baumeister-YaHlnh6ItjA-unsplash.jpg"
+                alt="female abuse"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asset/sai-de-silva-cykFL7IQCTk-unsplash.jpg"
+                alt="happy mum and child"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./asset/Say-No-FGM.jpg"
+                alt="Stop
+                FGM"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./asset/Say-No-FGM1.jpg" alt="Stop FGM " />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------SWIPER-SCRIPT------------------------------>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!----------------------SWIPER-SCRIPT------------------------------>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 2700,
+          disableOnInteraction: false,
+        },
+        // Optional parameters
+
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

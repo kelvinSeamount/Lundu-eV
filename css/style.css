@@ -1,0 +1,52 @@
+:root {
+  --lg--container-width: 80%;
+  --md--container-width: 90%;
+  --sm--container-width: 94%;
+
+  /*==============BACKGROUND-COLOR===================*/
+  --bg--color: #222;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg--color);
+}
+
+section {
+  padding: 2rem 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.container {
+  width: var(--lg--container-width);
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 84%;
+  height: fit-content;
+}
+
+/*==============MEDIA-QUERIES===================*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--md--container-width);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--md--container-width);
+    margin: 0 auto;
+  }
+}
